@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta>
+    <meta id="viewport" name="viewport" content="width=320; initial-scale=1.0;maximum-scale=1.0; user-scalable=no;" />
+    <meta name=”apple-mobile-web-app-capable” content=”yes” />
+    <!--// 离线应用的另一个技巧-->
+    <meta name=”apple-mobile-web-app-status-bar-style” content=black” />
+    <!--// 隐藏状态栏-->
+    <meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <!--指定的iphone中safari顶端的状态条的样式-->
+    <meta content="telephone=no" name="format-detection" />
+    <style>
+        h1{
+            text-align: center;
+            margin:0
+        }
+        #app{
+            display: flex
+        }
+        
+        #app .all_edges{
+            flex: 1
+        }
+        #app .edge{
+            margin-bottom: 20px
+        }
+        #app .min_edges{
+            flex: 2
+        }
+        
+    </style>
+</head>
+
+<body>
+     <h1>最小生成树寻找过程,从顶点0开始</h1>
+    <div id='app'>
+        <div class="all_edges">
+            <h2 class="title"></h2>
+            <p class="edges_list"></p>
+        </div>
+        <canvas id="canvas" width="770" height="770"></canvas>
+        <div class="min_edges">
+            <h2 class="title">最小生成树</h2>
+            <p class="edges_list"></p>
+        </div>
+
+    </div>
+<script src="vendors.js"></script><script src="app.501861a1456bf392c57e.js"></script></body>
+
+</html>
